@@ -2,7 +2,7 @@ defmodule Chain do
 
   defstruct(
     next_node: nil,
-    count: 4
+    count: 4 
   )
 
   def start_link(next_node) do
