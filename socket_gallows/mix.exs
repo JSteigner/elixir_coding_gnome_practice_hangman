@@ -44,6 +44,7 @@ defmodule SocketGallows.MixProject do
       {:plug_cowboy, "~> 2.0"},
 
       {:hangman, [ path: "../hangman" ]},
+      {:jason, "~> 1.2"},
     ]
   end
 

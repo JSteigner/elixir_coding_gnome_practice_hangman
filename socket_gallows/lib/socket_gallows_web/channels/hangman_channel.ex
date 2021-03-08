@@ -1,5 +1,5 @@
 defmodule SocketGallowsWeb.HangmanChannel do
-  # @derive Jason.Encoder
+  @derive Jason.Encoder
   use Phoenix.Channel
 
   def join("hangman:game", _, socket) do

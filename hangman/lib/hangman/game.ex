@@ -1,5 +1,5 @@
 defmodule Hangman.Game do
-  # @derive Jason.Encoder
+  @derive Jason.Encoder
 
   defstruct(
     turns_left: 7,
